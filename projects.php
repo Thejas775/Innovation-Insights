@@ -35,7 +35,7 @@ include 'components/wishlist_cart.php';
 
 <section class="products">
 
-   <h1 class="heading">latest products</h1>
+   <h1 class="heading">Latest Projects</h1>
 
    <div class="box-container">
 
