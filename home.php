@@ -48,8 +48,13 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-.png" alt="">
          </div>
          <div class="content">
+<<<<<<< Updated upstream
             <span>upto 50% off</span>
             <h3>latest smartphones</h3>
+=======
+            <h3>Shout Your</h3>
+            <h3>Projects To The World!!!</h3>
+>>>>>>> Stashed changes
          </div>
       </div>
 
