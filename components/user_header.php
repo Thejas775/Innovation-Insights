@@ -20,7 +20,7 @@
       <nav class="navbar">
          <a href="home.php"><b>Home</b></a>
          <a href="yourprojects.php"><b>Your Projects</b></a>
-         <a href="shop.php"><b>Student Projects</b></a>
+         <a href="projects.php"><b>Student Projects</b></a>
          <a href="about.php"><b>About Us</b></a>
       </nav>
 
