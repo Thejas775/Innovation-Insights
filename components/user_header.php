@@ -19,9 +19,9 @@
 
       <nav class="navbar">
          <a href="home.php"><b>Home</b></a>
-         <a href="yourprojects.php">Your Projects</a>
-         <a href="shop.php">Student Projects</a>
-         <a href="about.php">About Us</a>
+         <a href="yourprojects.php"><b>Your Projects</b></a>
+         <a href="shop.php"><b>Student Projects</b></a>
+         <a href="about.php"><b>About Us</b></a>
       </nav>
 
       <div class="icons">
@@ -37,7 +37,6 @@
          <div id="menu-btn" class="fas fa-bars"></div>
          <a href="search_page.php"><i class="fas fa-search"></i></a>
          <a href="wishlist.php"><i class="fas fa-heart"></i><span>(<?= $total_wishlist_counts; ?>)</span></a>
-         <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_counts; ?>)</span></a>
          <div id="user-btn" class="fas fa-user"></div>
       </div>
 
@@ -49,19 +48,19 @@
             $fetch_profile = $select_profile->fetch(PDO::FETCH_ASSOC);
          ?>
          <p><?= $fetch_profile["name"]; ?></p>
-         <a href="update_user.php" class="btn">update profile</a>
+         <a href="update_user.php" class="btn">Update profile</a>
          <div class="flex-btn">
-            <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="user_register.php" class="option-btn">Register</a>
+            <a href="user_login.php" class="option-btn">Login</a>
          </div>
-         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">logout</a> 
+         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">Logout</a> 
          <?php
             }else{
          ?>
-         <p>please login or register first!</p>
+         <p>Please login or register first!</p>
          <div class="flex-btn">
-            <a href="user_register.php" class="option-btn">register</a>
-            <a href="user_login.php" class="option-btn">login</a>
+            <a href="user_register.php" class="option-btn">Register</a>
+            <a href="user_login.php" class="option-btn">Login</a>
          </div>
          <?php
             }
