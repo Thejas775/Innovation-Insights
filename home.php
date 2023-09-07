@@ -30,6 +30,8 @@ include 'components/wishlist_cart.php';
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
    
@@ -45,31 +47,31 @@ include 'components/wishlist_cart.php';
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-.png" alt="">
-         </div>
+            <img src="images/a1.png" alt="">
+</div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest smartphones</h3>
+            <h3>Shout Your</h3>
+            <h3>Projects To The World</h3>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-2.png" alt="">
+            <img src="images/a2.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest watches</h3>
+            <h3>Flex</h3>
+            <h3>About It</h3>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-3.png" alt="">
+            <img src="images/a3.png" alt="">
          </div>
          <div class="content">
-            <span>upto 50% off</span>
-            <h3>latest headsets</h3>
+            <h3>Become</h3>
+            <h3>Famous</h3>
          </div>
       </div>
 
@@ -83,65 +85,9 @@ include 'components/wishlist_cart.php';
 
 </div>
 
-<section class="category">
-
-   <h1 class="heading">shop by category</h1>
-
-   <div class="swiper category-slider">
-
-   <div class="swiper-wrapper">
-
-   <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/icon-1.png" alt="">
-      <h3>laptop</h3>
-   </a>
-
-   <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/icon-2.png" alt="">
-      <h3>tv</h3>
-   </a>
-
-   <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="">
-      <h3>camera</h3>
-   </a>
-
-   <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="">
-      <h3>mouse</h3>
-   </a>
-
-   <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="">
-      <h3>fridge</h3>
-   </a>
-
-   <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="">
-      <h3>washing machine</h3>
-   </a>
-
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="">
-      <h3>smartphone</h3>
-   </a>
-
-   <a href="category.php?category=watch" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="">
-      <h3>watch</h3>
-   </a>
-
-   </div>
-
-   <div class="swiper-pagination"></div>
-
-   </div>
-
-</section>
-
 <section class="home-products">
 
-   <h1 class="heading">latest products</h1>
+   <h1 class="heading">Latest Projects</h1>
 
    <div class="swiper products-slider">
 
@@ -171,7 +117,7 @@ include 'components/wishlist_cart.php';
    <?php
       }
    }else{
-      echo '<p class="empty">no products added yet!</p>';
+      echo '<p class="empty">No Projects Added Yet!</p>';
    }
    ?>
 
@@ -262,6 +208,7 @@ var homeSwiper = new Swiper(".home-slider", {
       delay: 3000, // Set the delay in milliseconds (3 seconds in this example)
    },
 });
+
 
 </script>
 
