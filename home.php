@@ -49,9 +49,9 @@ include 'components/wishlist_cart.php';
          <div class="image">
             <img src="images/a1.png" alt="">
 </div>
-         <div class="content">
+         <div class="content">5
             <h3>Shout Your</h3>
-            <h3>Projects To The World</h3>
+            <h3>Projects To The Worldsdasd</h3>
          </div>
       </div>
 
