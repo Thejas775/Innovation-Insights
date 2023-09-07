@@ -15,7 +15,7 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">Innovation Insights<span>.</span></a>
+      <a href="home.php" class="logo"><b><i>Innovation Insights</b></i><<span>.</span></a>
 
       <nav class="navbar">
          <a href="home.php"><b>Home</b></a>
